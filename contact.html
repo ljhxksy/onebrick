@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One Brick | Volunteering Made Easy</title>
+    <!-- bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,200;0,300;0,400;0,500;0,600;1,300;1,600&family=Lexend+Giga:wght@200;400;500;700&family=Prata&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <section class="navbar">
+        <div class="logo">
+            <a href="index.html">
+                <img src="./asset/oneBrickLogo.svg" alt="One Brick Logo">
+            </a>
+        </div>
+        <input id="menu-toggle" type="checkbox" />
+        <label class='menu-button-container' for="menu-toggle">
+            <div class='menu-button'></div>
+        </label>
+        <ul class="menu">
+            <li>
+                <a href="#about-us">Who We Are</a>
+            </li>
+            <li>
+                <a href="./activites.html">What We Do</a>
+            </li>
+            <li>
+                <a href="./contact.html">Contact Us</a>
+            </li>
+            <li id="login-li">
+                <a href="./login.html">Login</a>
+            </li>
+        </ul>
+
+        <div class="icon">
+            <a href="./login.html">
+                <i id="icon-i" class="fa-solid fa-user"></i>
+            </a>
+        </div>
+    </section>
+
+    <div class="main-content">
+        <div class="bg-overlay"></div>
+        <div class="bg-image-container">
+            <img src="./asset/pexels-matthias-zomer-339620.jpg" class="bg-image" alt="oneBrick-landing" />
+            <div class="contact">
+                <h3>Contact Us</h3>
+                <p>Need to contact us? <br> One Brick chapters are entirely volunteer run, and we've all got day jobs. <br> We do not maintain an office, nor do we maintain a central phone number.</p>
+                <a href="https://www.facebook.com/onebrickboston/">
+                    <i class="fa-brands fa-square-facebook"></i>
+                </a>
+                <a href="https://www.instagram.com/onebrickboston/?hl=en">
+                    <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://twitter.com/OneBrickBoston">
+                    <i class="fa-brands fa-twitter"></i>
+                </a>
+                <a href="https://www.yelp.com/biz/one-brick-boston-boston">
+                    <i class="fa-brands fa-yelp"></i>
+                </a>
+        
+                <br>
+                <br>
+
+                <h3>Subscribe to our Newsletter</h3>
+                <form action="/action_page.php">
+                    <label for="name">Name:</label><br>
+                    <input type="text" id="name" name="name"><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br>
+                    <label for="message">Message:</label><br>
+                    <textarea id="message" name="message" rows="2" cols="35"></textarea><br>
+                    <input class="submit" type="submit" value="Submit">
+                </form> 
+        </div>
+        </div>
+
+        <section class="footer">
+            <div class="container">
+                <div class="row">
+                  <div class="col">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="./asset/oneBrick.svg" alt="One Brick Logo">
+                        </a>
+                    </div>
+                    <h6>One Brick | Volunteering Made Easy</h6>
+                  </div>
+                  <div class="col" style="padding-right: 2vw;">
+                    One Brick is a  501(c)3 non-profit organization <br>
+                    (Federal ID: 77-0593889) 
+                    <br>
+                    851 White Moonstone Loop
+                    <br>
+                    San Jose, CA 95123
+                    <br>
+                    <br>
+                    <p style="font-weight: 200; font-size: smaller;"> Need to contact us? One Brick chapters are entirely volunteer run, and we've all got day jobs. We do not maintain an office, nor do we maintain a central phone number. </p>
+                   
+                  </div>
+                  <div class="col">
+                    <h5>Contact us</h5>
+                    <p>Email: 
+                        <a href="mailto: onebrick@onebrick.org"></a>
+                        onebrick@onebrick.org</p>
+                    <p>Calendar page: 
+                        <a href="https://onebrick.org/calendar/">https://onebrick.org/calendar/</a>
+                    </p>
+                    <p>Facebook: 
+                        <a href="https://www.facebook.com/onebrickboston">https://www.facebook.com/onebrickboston</a>
+
+                    </p>
+                  </div>
+                </div>
+              </div>
+        </section>
+</body>
+
+</html>
